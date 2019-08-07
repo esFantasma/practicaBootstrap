@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Gilda+Display&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+root{
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+header{
+	height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('https://images.pexels.com/photos/1181438/pexels-photo-1181438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header nav a{
+	color: #fff;
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: 700
+}
+
+header nav a:hover{
+	color: #afafaf;
+}
+
+header .nav-item:last-child{
+	padding-right: 17em;
+}
+
+header .nav-item{
+	padding-top: 2.5em;
+}
+
+header .navbar-brand{
+	padding-left: 13.5em;
+}
+
+header .row .col{
+	padding:22vmin 1vmin;
+}
+
+header .container h1{
+	color: #fff;
+	font-size: 3.5em;
+	font-weight: 700;
+	line-height: 125px;
+}
+
+header .container .btn{
+	border-radius: 0px;
+	border-width: 2px;
+}
+
+header .container .btn:hover{
+	background-color: rgba(0,0,0,0.55);
+	color: #fff;
+}
+.gradient {
+	background: radial-gradient(circle at 1.98% 13.04%, #FF512F, transparent 100%), radial-gradient(circle at 98.02% 28.95%, #DD2476, transparent 100%), radial-gradient(circle at 50% 50%, #ffffff, #ffffff 100%);
+	padding: 3.5rem;
+	color: #fff;
+	margin-top: -60px;
+	height: 65vh;
+	width: 100%;
+}
+.section-1 .gradient p:nth-child(1)	{
+	font-size: 13px;
+	color: rgba(255, 255, 255, 0.45);
+	text-transform: uppercase;
+}
+
+.section-1 .gradient p:nth-child(2)	{
+	font-size: 3em;
+	color: #fff;
+	line-height: 56px;
+	font-weight: 700;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	letter-spacing: 0px;
+}
+
+.section-1 .gradient .row .col-md-7 p{
+	font-family: "Gilda Display", serif;
+	font-size: 1.2em;
+	line-height: 40px;
+	padding-bottom: 60px;
+	color: #fff;
+	text-transform: none;
+	color: rgba(255, 255, 255, 0.85);
+}
+.section-1 .gradient .row .col-md-7 ul li{
+	display: inline-flex;
+}
+.section-1 .gradient .row .col-md-7 .row .col-md-4 p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	float: right;
+	width: 77%;
+	padding-left: 15px;
+}
+.section-1 .gradient .row .col-md-7 .row  .col-md-4 img{
+	width: 22%;
+	float: left;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.section-2{
+	margin-top: -200px;
+	padding-bottom: 100px;
+}
+
+.section-2 .container .row{
+	padding: 3.5em;
+}
+
+.section-2 button{
+	border-radius: 0;
+}
+.section-2 button:hover{
+	background-color: none;
+}
+
+.section-2 .txtBig{
+	font-weight: 700;
+	font-size: 3em;
+	line-height: 15px;
+	margin-bottom: 30px;
+}
+
+.section-2 .txtBig span{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #aaaaaa;
+}
+
+.section-3{
+	background-color: #f8f8f8;
+	position: relative;
+	padding-bottom: 100px;
+}
+
+.mask{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #f8f8f8;
+	top: -125px;
+	left: 0;
+	-webkit-transform: skewY(-4deg);
+	transform: skewY(-4deg);
+	-webkit-transform-origin: 100% 0;
+	transform-origin: 100% 0;
+}
+
+@media (max-width: 575.98px) {
+	.section-2{
+	margin-top: 0px;
+	padding-bottom: 100px;
+}
+}
+
+
+/*# sourceMappingURL=/src.e31bb0bc.css.map */
